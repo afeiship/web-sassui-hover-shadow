@@ -1,0 +1,25 @@
+/*web-sassui-hover-shadow Start*/
+.web-sassui-hover-shadow{
+  -webkit-transition:all 0.3s;
+  transition:all 0.3s;
+  &:hover{
+    z-index: 2;
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+  }
+}
+
+@mixin web-sassui-hover-shadow($inOpacity:0.1,$inDistance:-2px){
+  -webkit-transition:all 0.3s;
+  transition:all 0.3s;
+  &:hover{
+    z-index: 2;
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,$inOpacity);
+    box-shadow: 0 15px 30px rgba(0,0,0,$inOpacity);
+    -webkit-transform: translate3d(0, $inDistance, 0);
+    transform: translate3d(0, $inDistance, 0);
+  }
+}
+/*web-sassui-hover-shadow End*/

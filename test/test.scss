@@ -1,0 +1,11 @@
+@import "../dist/web-sassui-hover-shadow.scss";
+body{
+  background: #f3f3f3;
+}
+.test-web-sassui-hover-shadow{
+  @include web-sassui-hover-shadow();
+  padding:20px;
+  width:120px;
+  height:120px;
+  background: #fff;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "web-sassui-hover-shadow",
+  "description": "Web sass ui module for hover shadow.",
+  "main": [
+    "dist/web-sassui-hover-shadow.css",
+    "dist/web-sassui-hover-shadow.scss"
+  ],
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "webkit",
+    "cssui",
+    "hover-shadow"
+  ],
+  "homepage": "https://github.com/afeiship/webkit-cssui-absolute-center",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
